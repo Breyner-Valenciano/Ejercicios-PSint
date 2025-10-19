@@ -1,4 +1,4 @@
-Algoritmo mayorOigial
+Algoritmo mayorOigual
 	definir num1, num2 Como Real
 	escribir "digite un primer numero"
 	leer num1
@@ -18,3 +18,4 @@ Algoritmo mayorOigial
 	
 	
 FinAlgoritmo
+
