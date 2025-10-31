@@ -1,4 +1,4 @@
-Algoritmo serie
+Algoritmo repetirSerie
 Definir contadorNumeros, cantidadTerminos, termino Como Entero
 Escribir "Ingrese la cantidad de terminos a generar:"
 Leer cantidadTerminos
