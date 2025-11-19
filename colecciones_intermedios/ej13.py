@@ -1,5 +1,0 @@
-A=list(map(int,input("A: ").split()))
-B=list(map(int,input("B: ").split()))
-s1=set(x for x in A if x%2==0)
-s2=set(x for x in B if x%2==0)
-print(s1 & s2)
