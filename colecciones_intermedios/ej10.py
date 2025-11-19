@@ -1,0 +1,5 @@
+t=eval(input("Ingrese tupla: "))
+s=sum(t)
+p=s/len(t)
+print(s)
+print(p)
