@@ -1,0 +1,15 @@
+Algoritmo sistemaOperativo
+	Definir opsion Como Caracter
+	Imprimir "Ingrese un carácter:"
+	Repetir
+	Leer opsion
+	Si opsion == 'a' o opsion == 'A' Entonces
+		Imprimir "Su opción es: ", opsion " (Android)"
+	SiNo Si opsion == 'i' o opsion == 'I' Entonces
+			Imprimir "Su opción es: ", opsion " (IOS)"
+		SiNo
+			Imprimir "Ingrese una opción valida (Android o IOS):"
+		FinSi
+	FinSi
+	Hasta Que opsion == 'a' o opsion == 'A' o opsion == 'i' o opsion == 'I'
+FinAlgoritmo

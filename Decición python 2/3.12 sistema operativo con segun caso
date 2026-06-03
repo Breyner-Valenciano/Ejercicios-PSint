@@ -1,0 +1,14 @@
+Algoritmo androidIOSseguncaso
+	Definir opsion Como Caracter
+	Repetir
+	Leer opsion
+	Segun opsion Hacer
+			Caso 'a' o 'A':
+			Imprimir "Su opción es: ", opsion " (Android)"
+			Caso: 'i' o 'I':
+			Imprimir "Su opción es: ", opsion " (IOS)"
+				De Otro Modo:
+				Imprimir "Ingrese una opción valida (Android o IOS):"
+			FinSegun
+		Hasta Que opsion == 'a' o opsion == 'A' o opsion == 'i' o opsion == 'I'
+FinAlgoritmo

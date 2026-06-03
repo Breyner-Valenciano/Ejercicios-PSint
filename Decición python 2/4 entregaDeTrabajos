@@ -1,0 +1,25 @@
+Algoritmo entregaDeTrabajos
+	Definir n1, n2, n3, n4, n5, definitiva Como Real
+	Repetir
+		Imprimir "Ingrese la primera nota:"
+		Leer n1
+		Imprimir "Ingrese la segunda nota:"
+		Leer n2
+		Imprimir "Ingrese la tercera nota:"
+		Leer n3
+		Imprimir "Ingrese la cuarta nota:"
+		Leer n4
+		Imprimir "Ingrese la quinta nota:"
+		Leer n5
+		total = n1+n2+n3+n4+n5
+		Si total > 3.5 Y total <= 5 Entonces
+			Imprimir "Su nota es:" total, " Pasa el curso"
+		SiNo Si total >= 0 Y total <= 3.5 Entonces
+				Imprimir "Su nota es:" total, " No pasa el curso"
+			SiNo
+				Imprimir "Cantidad no valida"
+				Imprimir "Ingrese valores validos"
+				FinSi
+		FinSi
+	Hasta Que total <= 5 Y total >= 0
+FinAlgoritmo

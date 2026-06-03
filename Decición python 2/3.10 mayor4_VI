@@ -1,0 +1,38 @@
+Algoritmo mayor4_VI
+	Definir n1, n2, n3, n4, mallor Como Real
+	Imprimir "Ingrese el primer numero"
+	Leer n1
+	Imprimir "Ingrese el segundo numero"
+	Leer n2
+	Imprimir "Ingrese el tercer numero"
+	Leer n3
+	Imprimir "Ingrese el cuarto numero"
+	Leer n4
+	Si n1 > n2 Entonces
+		Si n1 > n3 Entonces
+			Si n1 > n4 Entonces
+				mallor = n1
+			SiNo
+				mallor = 4
+			FinSi
+		Sino Si n3 > n4 Entonces
+					mallor = n3
+				SiNo
+					mallor = n4
+				FinSi
+			FinSi
+		SiNo Si n2 > n3 Entonces
+				Si n2 > n4 Entonces
+					mallor = n2
+				SiNo
+					mallor = n4
+				FinSi
+			SiNo Si n3 > n4 Entonces
+					mallor = n3
+				SiNo
+					mallor = n4
+				FinSi
+			FinSi
+		FinSi
+	Imprimir "El número mayor es: ", mallor
+FinAlgoritmo

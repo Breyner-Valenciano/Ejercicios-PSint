@@ -1,0 +1,10 @@
+Algoritmo llaveDeAgua
+	Definir volumen Como Real
+	Imprimir "Ingrese el volumen del tanque(L):"
+	Leer volumen
+	Si volumen < 450 Y volumen > 250
+		Imprimir "El volumen del tanque es:", volumen, " La llave puede ser abierta"
+	SiNo
+		Imprimir "El volumen del tanque es:", volumen, " La llave debe ser cerrada"
+	FinSi
+FinAlgoritmo

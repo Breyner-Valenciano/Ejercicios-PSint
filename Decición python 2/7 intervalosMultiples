@@ -1,0 +1,47 @@
+Algoritmo intervalosMultiples
+	Definir nn, n1, n2, n3, n4, n5, n6 Como Entero
+	Definir validez Como Cadena
+	Imprimir "Ingrese los intervalos (que no se cruzen)"
+	Imprimir "Ingrese el primer valor minimmo"
+	Leer n1
+	Imprimir "Ingrese el primer valor maximo"
+	Leer n2
+	Imprimir "Ingrese el segundo valor minimmo"
+	Leer n3
+	Si n3 >= n1 y n3 <= n2 Entonces
+		validez = "Numero no valido"
+		Imprimir validez
+	SiNo
+		Imprimir "Ingrese el segundo valor maximo"
+		Leer n4
+	FinSi
+	Si n4 >= n1 y n4 <= n2 Entonces
+		validez = "Numero no valido"
+		Imprimir validez
+	SiNo
+		Imprimir "Ingrese el tercer valor minimo"
+		Leer n5
+	FinSi
+		Si n5 >= n1 y n5 <= n2 o n5 >= n3 y n5 <= n4 Entonces
+			validez = "Numero no valido"
+			Imprimir validez
+		SiNo
+			Imprimir "Ingrese el tercer valor maximo"
+			Leer n6
+		FinSi
+			Si n6 >= n1 y n6 <= n2 o n6 >= n3 y n6 <= n4 Entonces
+				validez = "Numero no valido"
+				Imprimir validez
+			SiNo Si validez == "Numero no valido"
+					Imprimir "Los valores insertados no son validos"
+				SiNo
+		Imprimir "Ingrese un número averiguar si se encuentra en los intervalos [", n1, ",", n2, "], [", n3, ",", n4, "], [", n5, ",", n6, "]:"
+		Leer nn
+		Si nn >= n1 y nn <= n2 o nn >= n3 y nn <= n4 o nn >= n5 y nn <= n6 Entonces
+			Imprimir "El numero insertado se encuentra dentro de uno de los intervalos"
+		SiNo
+			Imprimir "El numero insertado no se encuentra dentro de uno de los intervalos"
+		FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

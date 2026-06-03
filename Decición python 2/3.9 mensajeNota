@@ -1,0 +1,21 @@
+Algoritmo mensajeNota
+	Definir nota Como Real
+	Imprimir "Ingrese la nota definitiva: "
+	Repetir
+		Leer nota
+		Si nota < 3 y nota >= 0 Entonces
+			Imprimir "Nota insuficiente"
+		SiNo Si nota <= 3.5 y nota >= 0 Entonces
+				Imprimir "Nota aceptable"
+			SiNo Si nota <= 4 y nota >= 0 Entonces
+					Imprimir "Nota sobresaliente"
+				Sino si nota <= 5 y nota >= 0 Entonces
+						Imprimir "Nota excelente"
+					SiNo
+						Imprimir "Introdusca una nota valida (0 a 5):"
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	Hasta Que nota >= 0 y nota <=5
+FinAlgoritmo

@@ -1,0 +1,15 @@
+Algoritmo mayorNumero
+	Definir n1, n2, mallor Como Real
+	Imprimir "Inserte dos numeros de los cuales buscar el mayor:"
+	Imprimir "Inserte el primer numero:"
+	Leer n1
+	Imprimir "Inserte el segundo numero:"
+	Leer n2
+	Si n1 > n2 Entonces
+		mallor = n1
+	SiNo
+		mallor =n2
+	FinSi
+	Imprimir "El numero de mayor valor entre ", n1, " y ", n2
+	Imprimir "es: ", mallor
+FinAlgoritmo

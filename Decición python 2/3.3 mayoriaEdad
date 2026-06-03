@@ -1,0 +1,20 @@
+Algoritmo mayoriaEdad
+	Definir edad Como Entero
+	Definir nombre, mensajeEdad Como Cadena
+	Imprimir "Ingrese su nombre:"
+	Leer nombre
+	Imprimir "Ingrese su edad:"
+	Repetir
+		Leer edad
+		si edad < 0 Entonces
+			Imprimir "Ingrese una edad valida:"
+		FinSi
+	Hasta Que edad >= 0
+	si edad >= 18 Entonces
+		mensajeEdad = "Mayor de edad"
+	SiNo
+		mensajeEdad = "Menor de edad"
+	FinSi
+	Imprimir "Hola ", nombre
+	Imprimir "Usted es ", mensajeEdad
+FinAlgoritmo

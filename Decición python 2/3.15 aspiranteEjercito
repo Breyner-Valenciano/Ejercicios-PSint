@@ -1,0 +1,35 @@
+Algoritmo aspiranteEjercicio
+	Definir genero, estadoCivil Como Caracter
+	Definir salida Como Cadena
+	Definir estatura Como Real
+	Definir edad Como Entero
+	Imprimir "Género del aspirante (M/F):"
+	Leer genero
+	Imprimir "Estado civil del aspirante (S/C/V/D/U):"
+	Leer estadoCivil
+	Imprimir "Estatura del aspirante:"
+	Leer estatura
+	Imprimir "Edad del aspirante:"
+	Leer edad
+	Si estadoCivil=='S' o estadoCivil=='s' Entonces
+		Segun genero Hacer
+			Caso 'F' o 'f':
+				Si estatura > 1.60 Y edad >= 20 Y edad <= 25 Entonces
+					salida = "Es apto"
+				SiNo
+					salida = "No es apto"
+				FinSi
+				Caso 'M' o 'm':
+				Si estatura > 1.65 Y edad >= 18 Y edad <= 24 Entonces
+					salida = "Es apto"
+				SiNo
+					salida = "No es apto"
+				FinSi
+			De Otro Modo:
+				salida = ""
+		FinSegun
+	SiNo
+		salida = "No es apto"
+	FinSi
+	Imprimir salida
+FinAlgoritmo

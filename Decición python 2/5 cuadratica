@@ -1,0 +1,16 @@
+Algoritmo cuadratica
+	Definir n1, n2, n3, disc Como Real
+	Imprimir "Ingrese a, b, c para averiguar si la cuadratica tiene solución"
+	Imprimir "Inserte a:"
+	Leer n1
+	Imprimir "Inserte b:"
+	Leer n2
+	imprimir "Inserte c:"
+	Leer n3
+	disc = n2^2-(4*n1*n3)
+	Si disc < 0 o n1 = 0 Entonces
+		Imprimir "La cuadratica no tiene solución"
+	SiNo
+		Imprimir "La cuadratica tiene solución"
+	FinSi
+FinAlgoritmo

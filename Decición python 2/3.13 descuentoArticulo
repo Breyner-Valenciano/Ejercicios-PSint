@@ -1,0 +1,20 @@
+Algoritmo descuentoArticulo
+	Definir tipo Como Caracter
+	Definir balor, descuento, porcentaje Como Real
+	Imprimir "Ingrese el valor del artículo:"
+	Leer balor
+	Imprimir "Ingrese el tipo del artículo:"
+	Leer tipo
+	Segun tipo Hacer
+			Caso '1':
+				porcentaje = 0.125
+			Caso '2':
+				porcentaje = 0.083
+			Caso '3':
+				porcentaje = 0.032
+			De Otro Modo:
+				porcentaje = 0
+		FinSegun
+		descuento = balor*porcentaje
+		Imprimir "El valor del decuento es: ", descuento
+FinAlgoritmo

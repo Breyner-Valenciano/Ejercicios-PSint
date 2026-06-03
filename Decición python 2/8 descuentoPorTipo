@@ -1,0 +1,24 @@
+Algoritmo descuentoPorTipo
+	Definir descuento Como Cadena
+	Definir n1 Como Real
+	Imprimir "Ingrese el valor del articulo a pagar"
+	Leer n1
+	Imprimir "Ingrese el tipo de articulo (textil, electrodoméstico, cocina, videojuego"
+	Leer descuento
+	Segun descuento Hacer
+		caso "textil" o "Textil":
+			n1 = n1
+			Imprimir n1
+		Caso "electrodomestico" o "Electrodomestico" o "electrodoméstico" o "Electrodoméstico":
+			n1 = n1 * 0.037
+			Imprimir n1
+		Caso "cocina" o "Cocina":
+			n1 = n1 * 0.042
+			Imprimir n1
+		Caso "videojuego" o "Videojuego" o "videoJuego" o "video juego" o "Video juego" o "Video Juego" o "video Juego":
+			n1 = n1 * 0.078
+			Imprimir n1
+		De Otro Modo:
+			Imprimir "Tipo no encontrado"
+	FinSegun
+FinAlgoritmo

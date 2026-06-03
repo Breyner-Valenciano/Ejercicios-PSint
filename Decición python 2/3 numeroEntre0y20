@@ -1,0 +1,16 @@
+Algoritmo numeroEntre0y20
+	Definir n1 Como Entero
+	Imprimir "Inserte un número del 0 al 20"
+	Repetir
+	Leer n1
+	Si n1 <= 20 Y n1 >= 0 Entonces
+	Si n1 == 2 o n1 == 3 o n1 == 5 o n1 == 7 o n1 == 11 o n1 == 13 o n1 == 17 o n1 == 19 Entonces
+		Imprimir n1, " Es un numero primo"
+	SiNo 
+		Imprimir n1, " No es un numero primo"
+	FinSi
+SiNo
+	Imprimir "Ingrese un número valido:"
+FinSi
+Hasta Que n1 <= 20 Y n1 >= 0
+FinAlgoritmo

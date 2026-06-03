@@ -1,0 +1,14 @@
+Algoritmo intervalosMultiples
+	Definir n1, n2, n3 Como Entero
+	Imprimir "Ingrese el valor minimmo"
+	Leer n2
+	Imprimir "Ingrese el valor maximo"
+	Leer n3
+	Imprimir "Ingrese un número averiguar si se encuentra en el intervalo [", n2, ",", n3, "]:"
+	Leer n1
+	Si n1 >= n2 y n1 <= n3 Entonces
+		Imprimir "El numero insertado se encuentra dentro del intervalo"
+	SiNo
+		Imprimir "El numero insertado no se encuentra dentro del intervalo"
+	FinSi
+FinAlgoritmo

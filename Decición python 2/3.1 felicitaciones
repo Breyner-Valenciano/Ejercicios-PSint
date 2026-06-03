@@ -1,0 +1,14 @@
+Algoritmo felicitaciones
+	Definir notaDefinitiva Como Real
+	Imprimir "Ingrese la nota definitiva (1 a 5):"
+	Repetir
+		Leer notaDefinitiva
+		Si notaDefinitiva < 0 o notaDefinitiva > 5 Entonces
+			Imprimir "ingrese una nota valida:"
+		sino Imprimir "Su definitiva es: ", notaDefinitiva
+		FinSi
+		Si notaDefinitiva >= 4 y notaDefinitiva <= 5 Entonces
+		Imprimir "Felicitaciones!"
+	FinSi
+	Hasta Que notaDefinitiva >= 0 y notaDefinitiva <= 5
+FinAlgoritmo

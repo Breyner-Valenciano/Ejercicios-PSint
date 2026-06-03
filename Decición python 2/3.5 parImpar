@@ -1,0 +1,10 @@
+Algoritmo parImpar
+	Definir n Como Entero
+	Imprimir "Ingrese su número:"
+	Leer n
+	Si n MOD 2 == 0 Entonces
+		Imprimir n, " Es par"
+	SiNo
+		Imprimir n, " Es impar"
+	FinSi
+FinAlgoritmo

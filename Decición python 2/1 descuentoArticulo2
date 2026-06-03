@@ -1,0 +1,19 @@
+Algoritmo descuentoArticulo2
+	Definir valorArticulo, valorTotal, descuento Como Real
+	Definir mensaje Como Cadena
+	Imprimir "Ingrese el valor del artículo:"
+	Leer valorArticulo
+	Si valorArticulo > 150000 Entonces
+		descuento = 0.05
+	SiNo
+		descuento = 1
+	FinSi
+	Segun descuento Hacer
+			caso 0.05:
+				mensaje = "Valor total del artículo despues de descuentos: "
+			De Otro Modo:
+				mensaje = "Valor total del artículo: "
+		FinSegun
+		valorTotal = valorArticulo*descuento
+	Imprimir mensaje, valorTotal, "$"
+FinAlgoritmo

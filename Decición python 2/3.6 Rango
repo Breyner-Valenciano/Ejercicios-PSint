@@ -1,0 +1,10 @@
+Algoritmo rango
+	Definir n Como Real
+	Imprimir "Ingrese un numero:"
+	Leer n
+	si n > 3.5 o n <= 7.8 Entonces
+		Imprimir n, " Esta en el rango"
+	SiNo
+		Imprimir n, " No esta en el rango"
+	FinSi
+FinAlgoritmo
